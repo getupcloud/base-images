@@ -1,5 +1,5 @@
 # Use a imagem base que inclui o runtime do .NET 8
-FROM baseimage-dotnet8:v1.0.2
+FROM ghcr.io/getupcloud/base-images/baseimage-dotnet8:v1.0.2
 
 # Defina o diretório de trabalho
 WORKDIR /app

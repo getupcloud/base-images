@@ -1,0 +1,12 @@
+{
+  "name": "minha-aplicacao-nodejs",
+  "version": "1.0.0",
+  "description": "Um exemplo de aplicação Node.js usando a imagem base GETUP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

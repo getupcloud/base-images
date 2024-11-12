@@ -7,12 +7,14 @@ This repository contains a collection of base Docker images optimized for differ
 Each directory contains:
 
 - `dotnet8/example/Dockerfile`: Source for building the base image example
+- `nodejs/example/Dockerfile`: Source for building the Node.js base image example
 
 ## Available Images
 
 | Directory | Image Name        | Description               | Tag    |
 | --------- | ----------------- | ------------------------- | ------ |
 | dotnet8   | baseimage-dotnet8 | .NET 8 minimal base image | v1.0.2 |
+| nodejs    | baseimage-nodejs  | Node.js base image        | v1.0.0 |
 
 ## Usage
 
