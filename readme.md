@@ -6,13 +6,13 @@ This repository contains a collection of base Docker images optimized for differ
 
 Each directory contains:
 
-- `Dockerfile`: Source for building the base image example
+- `dotnet8/example/Dockerfile`: Source for building the base image example
 
 ## Available Images
 
-| Directory | Image Name        | Description               |
-| --------- | ----------------- | ------------------------- |
-| dotnet8   | baseimage-dotnet8 | .NET 8 minimal base image |
+| Directory | Image Name        | Description               | Tag    |
+| --------- | ----------------- | ------------------------- | ------ |
+| dotnet8   | baseimage-dotnet8 | .NET 8 minimal base image | v1.0.2 |
 
 ## Usage
 
